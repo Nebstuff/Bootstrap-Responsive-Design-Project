@@ -1,0 +1,135 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+header.bg-primary {
+    background-image: url('guitar_1.jpg') !important;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(34, 34, 34, 0.6) !important;
+}
+
+
+#about {
+    background-color: rgb(220, 220, 220) !important;
+}
+
+.col-lg-6 img {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about h2 {
+    margin-top: -80px !important;
+}
+
+#about hr {
+    height: 3px;
+    background-color: black !important;
+    border: none;
+}
+
+.wrap {
+    margin-top: -75px;
+}
+
+.col-lg-6 img {
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 900px) {
+    .wrap {
+        margin-top: 0 !important;
+    }
+}
+
+.title_wrap {
+    margin-left: -70px;
+    
+}
+
+.navwrap {
+    margin-right: -70px;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.navbar-brand {
+    color: rgba(255, 255, 255, 0.867) !important;
+}
+
+.custom h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -50px;
+
+}
+
+.guitarcard1, 
+.guitarcard2,
+.guitarcard3, 
+.guitarcard4 {
+    transition: transform 0.3s ease-in, box-shadow 0.3s ease, transform 0.05s ease-out;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+
+.guitarcard1 img, 
+.guitarcard2 img,
+.guitarcard3 img, 
+.guitarcard4 img{
+    border-radius: 15px;
+
+}
+
+.guitarcard1:hover, 
+.guitarcard2:hover,
+.guitarcard3:hover,
+.guitarcard4:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+    opacity: 1;
+}
+
+.black-box {
+    background-color: rgb(0, 0, 0);
+    padding: 60px;
+    color: rgb(231, 231, 231);
+    text-align: center;
+    font-style: italic;
+}
+
+#services hr {
+    height: 3px;
+    background-color: black !important;
+    border: none;
+}
+
+#mission h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: -40px;
+}
+
+#mission p {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+#mission {
+    background-color: black;
+    color: azure;
+    margin-top: -20px;
+    
+}
